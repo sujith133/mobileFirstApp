@@ -1,0 +1,23 @@
+.column{
+    width: 400px;
+    margin: auto;
+    height: 300px;
+    justify-content: space-between;
+}
+.button{
+    margin: auto;
+    width: 90px;
+}
+.form{
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    
+}
+
+@media screen and (max-width:560px) {
+    .form{
+        border-radius: 15px;
+        border: 2px solid #ccc;
+        width: 100%;
+    }    
+}

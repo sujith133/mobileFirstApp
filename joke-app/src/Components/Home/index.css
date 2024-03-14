@@ -1,0 +1,26 @@
+.jokeBox{
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    border-right: 4px solid #ccc;
+    border-bottom: 4px solid #ccc;
+    margin: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.marginbox{
+    margin-top: auto;
+}
+.jokeBox:hover{
+    width: 300px;
+    transform: scale(1.15);    
+    border-radius: 15px;
+    border: 2px solid #c20040;
+    border-right: 4px solid #c20040;
+    border-bottom: 4px solid #c20040;
+    margin: 15px;
+    padding: 20px;
+    transition: background-color transform 0.3s ease-in-out;
+    background-color: #db517f;
+    
+}
